@@ -1,0 +1,78 @@
+/* Section.css */
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea el carrusel a la izquierda */
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+/* PARA LA IMAGEN DE TITULO -JUGUETES- */
+.title-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+/* PARA EL PRIMER CARRUSEL */
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra los botones debajo del carrusel */
+  margin-top: 10px;
+}
+
+.carousel1 {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.carousel1-track-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel1-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel1-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel1-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: -110px; /* Reduce el espacio entre el carrusel y los botones */
+}
+
+.nav-button {
+  width: 12px;
+  height: 12px;
+  margin: 0 3px; /* Reduce la separación entre botones */
+  background-color: #ccc;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button.active {
+  background-color: #333;
+}
+
+.nav-button:hover {
+  background-color: #666;
+}
+
+
+
+
+
+
+  

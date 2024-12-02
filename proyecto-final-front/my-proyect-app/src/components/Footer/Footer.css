@@ -1,0 +1,90 @@
+footer {
+    background-color: #001f33; /* Azul marino oscuro */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Asegura que el texto sea blanco sobre el fondo oscuro */
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 80px;
+  }
+  
+  .footer-column h3 {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #fff; /* Color blanco para los encabezados */
+  }
+  
+  .footer-links a {
+    display: block;
+    margin: 5px 1px;
+    text-decoration: none;
+    color: #fff; /* Color blanco para los enlaces */
+  }
+  
+  .footer-links a:hover {
+    color: #ffd700; /* Color dorado para los enlaces cuando se pasa el mouse */
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #001f33; /* Azul marino oscuro */
+    color: #fff;
+  }
+  
+  .footer-left, .footer-right {
+    width: 48%;
+  }
+  
+  .footer-left h3, .footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .social-media img {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .payment-methods {
+    display: flex; /* Alinea las imágenes en una fila */
+    justify-content: flex-end; /* Mueve las imágenes hacia el lado derecho */
+    align-items: center; /* Alinea las imágenes verticalmente */
+  }
+  
+  .payment-methods img {
+    width: 60px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 40px;
+    margin: 0; /* Elimina el margen entre las imágenes */
+  }
+  
+  .payment-methods-title {
+    text-align: right; /* Alinea el título a la derecha */
+    font-size: 1px;
+    margin-bottom: 10px;
+    color: #fff; /* Título en blanco */
+  }
+  
+  .footer-bottom .footer-left {
+    text-align: left;
+  }
+  
+  .footer-bottom .footer-right {
+    text-align: right;
+  }
+  
+  footer img {
+    max-width: 100%;
+  }
+  

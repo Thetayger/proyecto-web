@@ -1,0 +1,152 @@
+/* Barra Amarilla Superior */
+.promo-bar {
+  background-color: #ffd600;  /* Color amarillo */
+  color: #007f3b;  /* Texto verde */
+  text-align: center;
+  font-size: 18px;  /* Fuente más grande */
+  font-weight: bold;
+  width: 100%;  /* Asegura que ocupe todo el ancho */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Sombra ligera debajo */
+}
+
+.promo-bar span {
+  display: inline-block;
+}
+
+.promo-bar img {
+  margin-right: 50px;
+}
+
+.promo-note {
+  font-weight: normal;
+  margin-left: 10px;
+  font-size: 14px;  /* Fuente más pequeña para el texto adicional */
+}
+
+
+/* Estilo General del Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo */
+.logo img {
+    height: 40px;
+    margin-top: 5px;
+  }
+  
+  /* Menú de Categorías */
+.categories {
+    font-size: 16px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Barra de Búsqueda */
+.search-bar {
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    margin: 0 20px;
+  }
+  
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+.search-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Íconos de Envío, Carrito y Usuario */
+.icons {
+    display: flex;
+    align-items: center;
+  }
+  
+.icons img {
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+.cart-count {
+    position: relative;
+    top: -10px;
+    right: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 12px;
+  }
+  
+/* Contenedor de Usuario */
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre el texto y el icono */
+  }
+  
+  /* Alinear el texto verticalmente */
+.user-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+  
+.user-text span {
+    font-weight: bold;
+    margin-bottom: 2px; /* Espacio entre "Hola" y "Inicia sesión" */
+  }
+  
+.user a {
+    color: green;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+.user a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Icono del Usuario */ 
+.user img {
+    height: 35px;
+    border-radius: 50%;
+  }
+
+  .banners {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .banner-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  

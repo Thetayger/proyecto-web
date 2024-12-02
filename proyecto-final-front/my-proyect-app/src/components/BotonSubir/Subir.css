@@ -1,0 +1,31 @@
+/* Subir.css */
+
+.subir-top {
+    position: fixed;    /* Fija el botón en la pantalla */
+    bottom: 20px;       /* Asegura que esté a 20px del borde inferior */
+    right: 20px;        /* Asegura que esté a 20px del borde derecho */
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 9999;      /* Asegura que el botón esté sobre otros elementos */
+    transition: background-color 0.3s ease;
+  }
+  
+  .subir-top:hover {
+    background-color: #555;
+  }
+  
+  
+  
+
+
+
+
+  
+  
+  

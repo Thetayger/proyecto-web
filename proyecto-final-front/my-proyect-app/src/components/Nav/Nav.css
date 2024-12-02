@@ -1,0 +1,32 @@
+.navegacion {
+    display: flex;            
+    margin-top: 10px;
+    justify-content: space-between; /* Espacio entre los elementos */
+    list-style-type: none;   
+    padding: 0;              /* Eliminar padding por defecto */
+    margin: 0;               /* Eliminar margin por defecto */
+    height: 30px; 
+}
+
+.navegacion li {
+    flex: 1;                 /* Hacer que cada elemento ocupe un espacio igual */
+    text-align: center;      /* Centrar el texto dentro de cada li */
+    padding-top: 5px;
+}
+
+
+.navegacion.grande {
+    font-size: 12px; /* Tamaño más grande para el segundo menú */
+    padding-top: 5px;
+    color: white;
+  }
+
+.navegacion a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Hereda el color definido por el elemento padre */
+  }
+  
+.navegacion a:hover {
+    text-decoration: underline; /* Opcional: subrayado al pasar el cursor */
+  }
+
